@@ -1,0 +1,16 @@
+﻿Version 0003 - alpha3
+- Sagegami's last minute hack on quiver size hid the F5 tekst
+- Speech is now async ( starts faster )
+- spamming either F2 or F5 should give a better user experience
+
+Version 0002 - alpha2
+
+- Changed Archer delay from 200ms to 2500ms for continuous firing
+- Autostop added to Archer after 31 hits
+- voice changed to female ( if available )
+- Added Melee (2.5 seconds)
+- Added Fists ( 1.1 second)
+- Configurable Quiver size
+
+
+

@@ -1,0 +1,30 @@
+﻿<Window x:Class="AutoClickerLif.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AutoClickerLif"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="140" Width="350" ResizeMode="NoResize" Closing="Window_Closing" >
+    <StackPanel Orientation="Vertical" Margin="10 10 10 10">
+        <StackPanel Orientation="Horizontal" Margin="00 10 0 0">
+            <RadioButton Name="Slinger" GroupName="skillRadio" Checked="Radio_Checked">Slinger</RadioButton>
+            <RadioButton Name="Archer" GroupName="skillRadio" Checked="Radio_Checked">Archer</RadioButton>
+            <RadioButton Name="Melee" GroupName="skillRadio" Checked="Radio_Checked">Melee</RadioButton>            
+            <RadioButton Name="Fists" GroupName="skillRadio" Checked="Radio_Checked">Fists</RadioButton>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal">
+            <TextBlock Margin="0 0 20 0">
+                Quiver size: 
+            </TextBlock>
+            <TextBox  Width="120" KeyUp="QuiverChanged" >31
+            </TextBox>
+        </StackPanel>
+        <TextBlock>
+            Press F2 to start
+        </TextBlock>
+        <TextBlock>
+            Press F5 to stop
+        </TextBlock>
+    </StackPanel>
+</Window>
